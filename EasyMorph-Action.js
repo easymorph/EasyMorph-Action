@@ -39,7 +39,7 @@ define([
     {
         'use strict';
 
-        logger.on();
+        logger.off();
 
         components.addComponent("em-action-password", password_component);
 
