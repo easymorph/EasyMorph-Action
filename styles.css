@@ -1,0 +1,26 @@
+.em-widget {
+    position: relative;
+}
+
+.em-image {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.em-taskinfo {
+    margin-left: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.em-taskinfo div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.em-heading {
+    font-size: 16pt;
+}

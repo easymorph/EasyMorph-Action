@@ -1,0 +1,8 @@
+{
+	"name" : "EasyMorph Action",
+	"description" : "Qlik Sense extension for running tasks on EasyMorph server",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "0.1",
+	"author": "EasyMorph"
+}
