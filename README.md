@@ -1,15 +1,25 @@
 # EasyMorph-Action
-Qlik Sense extension for running tasks on EasyMorph Server.
+A Qlik Sense extension that runs [EasyMorph Server](http://easymorph.com/server.html) tasks right from Qlik Sense applications. More details on EasyMorph integration with Qlik Sense here: [EasyMorph for Qlik Sense](http://easymorph.com/for/qlik.html)
 
 ![EasyMorph-Action extension example](./readme_01.gif)
+
+## Features
+
+* Up to 3 extensions per app sheet
+* Task parameters can be assigned using Qlik Sense expressions
+* Options for app reload, partial reload
+* Real-time task status updates
+* Link to auto-generated documentation
+* Link to task errors page (in case of failure)
+* Custom label (can be localized)
 
 ## Installation
 
 Download this repository as a zip archive: https://github.com/easymorph/EasyMorph-Action/archive/master.zip
 
-Qlik Sense Desktop: unzip to a directory under "C:\Users[%Username%]\Documents\Qlik\Sense\Extensions\".
+Qlik Sense Desktop: unzip to a directory under "C:\Users\\%Username%\Documents\Qlik\Sense\Extensions\".
 
-Qlik Sense server: see instructions [how to import an extension on Qlik Sense Server](http://help.qlik.com/en-US/sense/Subsystems/ManagementConsole/Content/import-extensions.htm).
+Qlik Sense server: Install through QMC. See instructions [how to import an extension on Qlik Sense server](http://help.qlik.com/en-US/sense/Subsystems/ManagementConsole/Content/import-extensions.htm).
 
 ## Configuration
 
@@ -25,7 +35,7 @@ Qlik Sense server: see instructions [how to import an extension on Qlik Sense Se
 
 #### Task parameters section
 
-Project parameters to run the target task with. Task will fail in case of incorrectly specified parameter names.
+Project parameters to run the target task with. The task will fail in case of incorrectly specified parameter names.
 
 #### App reload section
 
